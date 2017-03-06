@@ -1,0 +1,57 @@
+﻿@using DotNetNuke.Web.DDRMenu;
+@using System.Dynamic; 
+@inherits DotNetNuke.Web.Razor.DotNetNukeWebPage<dynamic>
+
+@{ 
+    var root = Model.Source.root; 
+}
+
+@helper RenderNodes(IList<MenuNode> nodes) {
+    if (nodes.Count > 0) {
+        <ul id="main-menu" class="sm sm-contra">
+            @foreach (var node in nodes) {
+                String isActive = "";
+                string isDisabled = "";
+                if (node.Selected) { isActive = "current"; }
+                if (!node.Enabled) { isDisabled = "disabled"; }
+
+                if (node.HasChildren()) {
+                    <li>
+                        <a href="#" class="@isActive @isDisabled">@node.Text</a>
+                        @RenderChildNodes(node.Children)
+                    </li>                 
+                } else {
+                    <li><a href="@node.Url" class="@isActive @isDisabled">@node.Text</a></li>                    
+                }
+            }<!-- ./ for loop -->
+        </ul>
+	}<!-- ./ node count -->
+}<!-- ./ helper -->
+
+@helper RenderChildNodes(IList<MenuNode> nodes) {
+    if (nodes.Count > 0)
+    {
+        <ul>
+            @foreach (var node in nodes)
+            {
+                String isActive = "";
+                string isDisabled = "";
+                if (node.Selected) { isActive = "current"; }
+                if (!node.Enabled) { isDisabled = "disabled"; }
+
+                if (node.HasChildren()) {
+                    <li>
+                        <a href="@node.Url" class="@isActive @isDisabled">@node.Text</a>
+                        @RenderChildNodes(node.Children)
+                    </li>
+                } else {
+                    <li><a href="@node.Url" class="@isActive @isDisabled">@node.Text</a></li>
+                }
+            }
+        </ul>
+    }
+}
+
+
+    @RenderNodes(root.Children)
+

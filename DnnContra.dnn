@@ -1,0 +1,135 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="DnnC.Skins.DnnContra" type="Skin" version="01.00.00">
+      <friendlyName>DnnContra</friendlyName>
+      <description>A responsive DNN skin using Bootstrap v4.0.0.aphla.6. Requires installation via the Host/Extensions page.</description>
+      <owner>
+        <name>Geoff Barlow</name>
+        <organization>DnnConsulting.nl</organization>
+        <url>http://www.DnnConsulting.nl</url>
+        <email>info@DnnConsulting.nl</email>
+      </owner>
+      <azureCompatible>true</azureCompatible>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">08.00.00</dependency>
+      </dependencies>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>portals/_default/skins/DnnContra</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>DnnContra</skinName>
+            <basePath />
+          </skinFiles>
+        </component>
+      </components>
+    </package>
+    
+    <package name="DnnC.Containers.DnnContra" type="Container" version="01.00.00">
+      <friendlyName>DnnContra</friendlyName>
+      <description>Containers for the DnnContra Theme package.</description>
+      <owner>
+        <name>Geoff Barlow</name>
+        <organization>DnnConsulting.net</organization>
+        <url>https://www.DnnConsulting.net</url>
+        <email>info@DnnConsulting.nl</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">08.00.00</dependency>
+      </dependencies>
+      <components>
+        <component type="Container">
+          <containerFiles>
+            <basePath>portals/_default/containers/DnnContra</basePath>
+            <containerName>DnnContra</containerName>
+            <containerFile>
+              <name>Main-Clean.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Arrow-H1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Arrow-H2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Arrow-H3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Arrow-H4.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Arrow-H5.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Arrow-H6.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Circle-H1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Circle-H2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Circle-H3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Circle-H4.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Circle-H5.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Circle-H6.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-H1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-H2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-H3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-H4.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-H5.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-H6.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Lined-H1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Lined-H2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Lined-H3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Lined-H4.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Lined-H5.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title-Lined-H6.ascx</name>
+            </containerFile>
+          </containerFiles>
+        </component>
+      </components>            
+    </package>
+  </packages>
+</dotnetnuke>

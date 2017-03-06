@@ -1,0 +1,79 @@
+
+
+.Normal                 { font-size: 14px; line-height: 1.428; }
+.dnnActions             { display: inline-block; }
+.dnnActions li          { margin-right: 5px; list-style: none; float: left; }
+.dnnCheckbox .mark      { background: none;}
+.form-group .dnnLabel   { text-align: left; width: auto; }
+.dnnLabel + span        { white-space: normal; }
+
+#ControlBar, #ControlBar:before, #ControlBar:after, #ControlBar *:before, #ControlBar *:after,
+#ControlBar li, #ControlBar li:before, #ControlBar li:after,
+#ControlBar a, #ControlBar a:before, #ControlBar a:after,
+.dnn_mact, .dnn_mact:before, .dnn_mact:after, .dnn_mact *:before, .dnn_mact *:after,
+.dnn_mact li, .dnn_mact li:before, .dnn_mact li:after {
+    -webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: content-box !important; /* Firefox, other Gecko */
+    box-sizing: content-box !important; /* Opera/IE 8+ */
+}
+
+
+.row.show-grid > [class^="col-"] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86, 61, 124, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.DNNEmptyPane {
+    width: 0;
+    margin: 0;
+}
+.paneOutline {
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #666;   
+}
+
+
+.paneOutline:hover {
+    background:rgba(0, 0, 0, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.dnnDropEmptyPanes {
+    outline: 1px dashed rgba(255, 255, 255, 0.1) !important;
+    min-width: 110px !important;
+    height:20px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.dnnSortable {
+    min-height: 10px !important; 
+}
+
+.dnnDragHint {
+    outline: none !important;
+    height: 22px !important;
+    cursor: move;
+    background: rgba(0, 0, 0, 0.3);
+    border-bottom: solid 1px #ccc;
+    border-top-left-radius :11px;
+    border-bottom-left-radius :11px;
+}
+.dnnDropTarget > p {
+    color:#4577a2;
+    font-size: 15px;
+    text-align: center;
+    margin-top:0;
+    line-height:20px;
+    
+}
+

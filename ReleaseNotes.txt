@@ -1,0 +1,15 @@
+﻿<h3>DnnBootster Theme for Dnn</h3>
+	DnnConsulting.nl <br/>
+	Geoff Barlow<br />
+	<a href="mailto:info@dnnconsulting.nl">info@DnnConsulting.nl</a><br />
+	<a href=https://www.dnnconsulting.net>https://www.dnnconsulting.net</a><br />
+<hr/>
+	<h3>About the DnnContra Theme</h3>
+
+	<h4>Version 01.00.00</h4><br />
+	Initial release of the skin using Bootstrap v4.0.0.alpha.6 and DNN 8
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>None, first release</li>
+	</ul>
+</div>
