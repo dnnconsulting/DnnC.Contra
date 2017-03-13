@@ -1,4 +1,4 @@
-# DnnC COntra 
+# DnnC Contra Theme
 ## Description
 
 A free open source responsive skin\theme for Dnn (DotNetNuke) using Bootstrap4.
