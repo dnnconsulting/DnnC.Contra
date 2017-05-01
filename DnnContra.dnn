@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="DnnC.Skins.DnnContra" type="Skin" version="01.00.00">
+    <package name="DnnC.Skins.DnnContra" type="Skin" version="01.00.01">
       <friendlyName>DnnContra</friendlyName>
       <description>A responsive DNN skin using Bootstrap v4.0.0.aphla.6. Requires installation via the Host/Extensions page.</description>
       <owner>
