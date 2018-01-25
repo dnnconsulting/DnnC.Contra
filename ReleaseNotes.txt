@@ -6,6 +6,12 @@
 <hr/>
 	<h3>About the DnnContra Theme</h3>
 
+	<h4>Version 01.00.02</h4><br />
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Changed the Bootstrap version from 4 alpha to 4.0.0 stable release</li>
+	</ul>
+
 	<h4>Version 01.00.01</h4><br />
 	<h5>Bug Fixes</h5>
 	<ul>
