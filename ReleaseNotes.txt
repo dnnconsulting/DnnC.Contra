@@ -6,6 +6,12 @@
 <hr/>
 	<h3>About the DnnContra Theme</h3>
 
+	<h4>Version 01.00.03</h4><br />
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Fixed the depriciated class for Dnn9.2 (Localization.Localization) Thanks to Francisco Pérez Andrés for this fix</li>
+	</ul>
+
 	<h4>Version 01.00.02</h4><br />
 	<h5>Bug Fixes</h5>
 	<ul>

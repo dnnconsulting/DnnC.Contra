@@ -7,7 +7,7 @@
     
 
     <!-- Languages --> 
-    <% if Localization.GetEnabledLocales().Count > 1 Then  %>
+    <% If LocaleController.Instance.GetLocales(PortalController.Instance.GetCurrentPortalSettings().PortalId).Count > 1 Then  %>
         <li class="list-inline-item text-xs-center btn-group">
             <a href="#"  id="showLanguages" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">language</i></a>
             <div class="dropdown-menu">
