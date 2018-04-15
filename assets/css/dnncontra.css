@@ -47236,7 +47236,8 @@ p {
 .contraC .contentpane a,
 .contraC .contentpane a:active,
 .contraC .contentpane a:link,
-.contraC .contentpane a:visited, a:focus {
+.contraC .contentpane a:visited,
+.contraC .contentpane a:focus {
   font-weight: 700; }
 
 .contraC .contentpane a:hover {
